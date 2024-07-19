@@ -101,3 +101,38 @@ $(document).ready(function () {
         }
     });
 });
+
+// flag4
+$(document).ready(function () {
+    let correctFlag4;
+
+    // Load the modal content from modal.html
+    $("#modalContainer").load("modal.html");
+
+    // Fetch the correct flag from flag.json
+    $.getJSON('flag.json', function (data) {
+        correctFlag4 = data.correctFlag4;
+    });
+
+    // Add event listener after loading the modal
+    $(document).on('submit', '#flagForm4', function (event) {
+        event.preventDefault();
+        console.log("Form submitted");
+        const flagInput = $('#flagInput4').val();
+        console.log("Flag input:", flagInput);
+
+        if (flagInput === correctFlag4) {
+            Swal.fire({
+                icon: 'success',
+                title: 'Congratulations!',
+                text: 'You have entered the correct flag!',
+            });
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops!',
+                text: 'The flag you entered is incorrect.',
+            });
+        }
+    });
+});
