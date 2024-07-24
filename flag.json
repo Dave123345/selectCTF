@@ -4,6 +4,7 @@
     "correctFlag3": "selectCTF{morse_code_rar}",
     "correctFlag4": "selectCTF{gipa_lisod_lisod_ra_ta_mo_ouy}",
     "correctFlag5": "selectCTF{simple_but_hard}",
-    "correctFlag6": "selectCTF{union_sql}"
+    "correctFlag6": "selectCTF{union_sql}",
+    "correctFlag7": "selectCTF{bypass_my_password}"
 }
 
