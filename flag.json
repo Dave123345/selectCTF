@@ -7,6 +7,6 @@
     "correctFlag6": "selectCTF{union_sql}",
     "correctFlag7": "selectCTF{bypass_my_password}",
     "correctFlag8": "selectCTF{my_answer_is_11}",
-    "correctFlag8": "selectCTF{SELECTCTF}"
+    "correctFlag9": "selectCTF{SELECTCTF}"
 }
 
