@@ -9,6 +9,7 @@
     "correctFlag8": "selectCTF{my_answer_is_11}",
     "correctFlag9": "selectCTF{SELECTCTF}",
     "correctFlag10": "selectCTF{Congrats_you_won}",
-    "correctFlag11": "fLAG{c0n6r4tul4t1onS_Yu0_6o7_7h3_fl4g}"
+    "correctFlag11": "fLAG{c0n6r4tul4t1onS_Yu0_6o7_7h3_fl4g}",
+    "correctFlag12": "CTF{extremely_hidden_flag}"
 }
 
