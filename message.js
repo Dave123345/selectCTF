@@ -276,3 +276,38 @@ $(document).ready(function () {
         }
     });
 });
+
+// flag8
+$(document).ready(function () {
+    let correctFlag9;
+
+    // Load the modal content from modal.html
+    $("#modalContainer").load("modal.html");
+
+    // Fetch the correct flag from flag.json
+    $.getJSON('flag.json', function (data) {
+        correctFlag9 = data.correctFlag9;
+    });
+
+    // Add event listener after loading the modal
+    $(document).on('submit', '#flagForm9', function (event) {
+        event.preventDefault();
+        console.log("Form submitted");
+        const flagInput = $('#flagInput9').val();
+        console.log("Flag input:", flagInput);
+
+        if (flagInput === correctFlag9) {
+            Swal.fire({
+                icon: 'success',
+                title: 'Congratulations!',
+                text: 'You have entered the correct flag!',
+            });
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops!',
+                text: 'The flag you entered is incorrect.',
+            });
+        }
+    });
+});
