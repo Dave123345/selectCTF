@@ -5,6 +5,7 @@
     "correctFlag4": "selectCTF{gipa_lisod_lisod_ra_ta_mo_ouy}",
     "correctFlag5": "selectCTF{simple_but_hard}",
     "correctFlag6": "selectCTF{union_sql}",
-    "correctFlag7": "selectCTF{bypass_my_password}"
+    "correctFlag7": "selectCTF{bypass_my_password}",
+    "correctFlag8": "selectCTF{SELECTCTF}"
 }
 
